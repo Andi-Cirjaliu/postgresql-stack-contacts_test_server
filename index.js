@@ -26,6 +26,12 @@ server.use(require('./routerMetrics'));
 server.use('/contacts', require('./router'));
 
 //Handle the wrong URLs
+server.use('/health', (req, res, next) => {
+  console.log('Health test...');
+  res.status(200).json({"msg": "The application is running"});
+});
+
+//Handle the wrong URLs
 server.use((req, res, next) => {
     console.log('Not found ', req.url);
     // counterRequestsNotFound.inc();
