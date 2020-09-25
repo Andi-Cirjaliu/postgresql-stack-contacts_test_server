@@ -53,7 +53,6 @@ chart-path : "chart/postgresqlstackcontactstestserver"
 
 # The IBM version of this configuration
 version : "0.0.3"
-ibm-generated-id : "b8e57c58-5f9f-4b72-9405-ec5c01907dd5"
-#ibm-generated-id : "94d612c2-3c21-443e-963a-60ef0622c420"
+ibm-generated-id : "5618fa77-485d-4f70-8c11-9396ab0cf1cb"
 ibm-cloud-app-id : "ba17c71e-516d-4078-b8c3-0035629c8519"
 credentials-filepath : "server/localdev-config.json, vcap-local.js, credentials.json, localdev-config.json"
